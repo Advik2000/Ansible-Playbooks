@@ -12,8 +12,8 @@
         - never
     - name: Create user
       user:
-        name: Ravi
-        password: intelliqit
+        name: Advik
+        password: advik
       tags: 
         - user_creation
         - always
