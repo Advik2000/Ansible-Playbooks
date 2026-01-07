@@ -16,7 +16,7 @@
             update_cache: yes
     - name: Edit the index.html file
       copy:
-        content: "IntelliQIT"
+        content: "Advik"
         dest: /var/www/html/index.html
     - block:
       - name: Restart apache2 on Ubuntu servers
@@ -36,6 +36,7 @@
         - http://172.31.44.93
         - http://172.31.37.179
         - http://172.31.40.63
+...
 
 
 
