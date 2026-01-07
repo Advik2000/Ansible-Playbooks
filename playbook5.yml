@@ -9,7 +9,7 @@
         update_cache: yes
     - name: Edit the index.html file
       copy:
-        content: "IntelliQ"
+        content: "Advik"
         dest: /var/www/html/index.html
     - name: Restart apache2
       service:
