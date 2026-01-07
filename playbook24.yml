@@ -10,7 +10,7 @@
       notify: Check url response
     - name: Edit the index.html file
       copy:
-        content: "Welcome to my IntelliQ"
+        content: "Work Hard Never GiveUP"
         dest: /var/www/html/index.html
       notify: Restart apache2
   handlers:
