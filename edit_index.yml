@@ -1,6 +1,6 @@
 ---
 - name: Edit the index.html file
   copy:
-    content: "IntelliQ"
+    content: "Advik"
     dest: /var/www/html/index.html
 ...
