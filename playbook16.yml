@@ -8,8 +8,8 @@
         password: "{{item.b}}"
         home: "{{item.c}}"
       with_items:
-        - {a: Raju,b: intelliqit,c: /home/Raju}
-        - {a: Rani,b: intelliqit,c: /tmp/Rani}
+        - {a: Raju,b: advik,c: /home/Raju}
+        - {a: Rani,b: advik,c: /tmp/Rani}
     - name: Copy files inot users home dirs
       copy:
         src: "{{item.a}}"
