@@ -9,6 +9,6 @@
         update_cache: yes
     - name: clone remote github repo
       git:
-        repo: https://github.com/intelliqittrainings/maven.git
+        repo: https://github.com/Advik2000/advik.git
         dest: /tmp/newgit
 ...
