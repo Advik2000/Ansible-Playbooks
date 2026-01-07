@@ -16,7 +16,7 @@
       when: ansible_distribution == "RedHat"
     - name: Edit the index.html file
       copy:
-        content: "IntelliQIT"
+        content: "Advik"
         dest: /var/www/html/index.html
     - name: Restart apache2 on Ubuntu servers
       service:
