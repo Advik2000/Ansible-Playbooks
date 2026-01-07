@@ -7,7 +7,7 @@
         name: mydb
         image: mysql
         env:
-          MYSQL_ROOT_PASSWORD: intelliqit
+          MYSQL_ROOT_PASSWORD: advik
 
     - name: Create a wordpress containers
       docker_container:
